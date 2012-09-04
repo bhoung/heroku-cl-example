@@ -7,6 +7,7 @@
 
 ;; Database
 (defvar *database-url* (heroku-getenv "DATABASE_URL"))
+(format nil "~a" *database-url*)
 ;(defvar *local-db-params* (list "test" "user" "pass" "127.0.0.1"))
 
 ;; Start local server
