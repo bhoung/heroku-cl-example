@@ -9,7 +9,6 @@
 (defvar *database-url* (heroku-getenv "DATABASE_URL"))
 ;(defvar *local-db-params* (list "test" "user" "pass" "127.0.0.1"))
 
-<<<<<<< HEAD
 ;; Start local server
 ;(defvar *server* (start (make-instance 'easy-acceptor :port 8088)))
 
